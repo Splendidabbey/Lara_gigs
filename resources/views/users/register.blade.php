@@ -29,8 +29,7 @@
           <label for="password" class="inline-block text-lg mb-2">
             Password
           </label>
-          <input type="password" class="border border-gray-200 rounded p-2 w-full" name="password"
-            value="{{old('password')}}" />
+          <input type="password" class="border border-gray-200 rounded p-2 w-full" name="password" />
   
           @error('password')
           <p class="text-red-500 text-xs mt-1">{{$message}}</p>
@@ -41,8 +40,7 @@
           <label for="password2" class="inline-block text-lg mb-2">
             Confirm Password
           </label>
-          <input type="password" class="border border-gray-200 rounded p-2 w-full" name="password_confirmation"
-            value="{{old('password_confirmation')}}" />
+          <input type="password" class="border border-gray-200 rounded p-2 w-full" name="password_confirmation" />
   
           @error('password_confirmation')
           <p class="text-red-500 text-xs mt-1">{{$message}}</p>
