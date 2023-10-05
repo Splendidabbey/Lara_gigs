@@ -27,6 +27,7 @@ Route::controller(ListingController::class)->group(function () {
     
     // single listing
     Route::get('listings/{listing}', 'show')->name('listing.show');
+
 });
 
 // To show the login page
